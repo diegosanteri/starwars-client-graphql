@@ -8,7 +8,8 @@ class HomeView extends React.Component {
             <div>HomeView</div>
             <br/>
             <Link to={"/people"}>People</Link><br/>
-            <Link to={"/fans"}>Fans</Link>
+            <Link to={"/fans"}>Fans</Link><br/>
+            <Link to={"/fans/create"}>Create Fans</Link>
         </div>)
     }
 }
