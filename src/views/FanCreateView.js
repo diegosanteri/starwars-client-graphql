@@ -26,7 +26,7 @@ class FanCreateView extends React.Component {
         }})
         .then(response => {
             if(response.data.addFan.id !== null) {
-                window.location.replace('/fans')
+                window.location.replace('/')
             } else {
                 console.log(response.data.addFan);
             }
